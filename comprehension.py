@@ -3,13 +3,7 @@ fahrenheit = [element*9/5 + 32 for element in celsius]
 
 print(fahrenheit)
 
-
-single_digits = range(0, 10)
-squares = []
-
-for single in single_digits:
-    print(single)
-    squares.append(single**2)
+squares = [i**2 for i in range(0, 10)]
 
 print(squares)
 
